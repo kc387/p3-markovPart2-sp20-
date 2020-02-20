@@ -1,6 +1,6 @@
 /**
  * simple reference solution for Part 2
- * @author ola
+ * @author rodger
  *
  */
 public class WordGram {
@@ -11,6 +11,8 @@ public class WordGram {
 	public WordGram(String[] source, int start, int size) {
 		myWords = new String[size];
 		System.arraycopy(source, start, myWords, 0, size);
+		myHash = 0;
+		myToString = null;
 	}
 
 	/**

@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * Driver for Markov Model classes
- * @author ola
+ * @author rodger
  *
  */
 
@@ -37,10 +37,14 @@ public class MarkovDriver {
 		
 		File f = new File(filename);
 		String text = TextSource.textFromFile(f);
+
+		//Only one of the next four lines should be uncommented
 		MarkovInterface<String> standard = new BaseMarkov();
 		//MarkovInterface<String> efficient = new EfficientMarkov();
-		MarkovInterface<WordGram> wmm = new BaseWordMarkov();
+		//MarkovInterface<WordGram> wmm = new BaseWordMarkov();
 		//MarkovInterface<WordGram> ewm = new EfficientWordMarkov();
+
+		// parameter in this line needs to be fixed based on line above
 		markovGenerate(standard,text);
 	}
 

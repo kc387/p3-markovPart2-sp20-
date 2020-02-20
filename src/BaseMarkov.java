@@ -9,7 +9,7 @@ import java.util.*;
  * This class is designed to be extended with state
  * protected rather than private
  * 
- * @author ola
+ * @author rodger
  *
  */
 
@@ -39,7 +39,7 @@ public class BaseMarkov  implements MarkovInterface<String> {
 	
 	/**
 	 * Change the order of this markov generator
-	 * @param is the new order 
+	 * @param order is the new order
 	 * @return the previous order
 	 */
 	public int setOrder(int order) {
