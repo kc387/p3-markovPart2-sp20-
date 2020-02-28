@@ -15,13 +15,13 @@ public class EfficientMarkov extends BaseMarkov {
 		super.setTraining(text);
 		myText = text;
 		myMap.clear();
-		for(int k = 0; k < myText.length()- myOrder; k += 1){
+		for(int k = 0; k <= myText.length()- myOrder; k += 1){
 			String a = myText.substring(k, k+myOrder);
 			myMap.putIfAbsent(a, new ArrayList());
 			if(k == myText.length() - myOrder) {
 				myMap.get(a).add(PSEUDO_EOS);
 			}
-			else {
+			else{
 				char c = myText.charAt(k + myOrder);
 				String d = Character.toString(c);
 				myMap.get(a).add(d);
