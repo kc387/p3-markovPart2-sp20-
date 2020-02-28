@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcc03b72-1416-4c9a-9322-034008a9d363" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EfficientMarkov-spring20.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EfficientMarkov-spring20.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EfficientMarkov-spring20/EfficientMarkov.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EfficientMarkov-spring20/EfficientMarkov.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EfficientMarkov-spring20/MarkovTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EfficientMarkov-spring20/MarkovTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EfficientMarkov.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EfficientMarkov.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MarkovTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MarkovTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
       <recent name="C:\Users\Susan\IdeaProjects\spring20setup\p3-efficientmarkov-fall19" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MarkovDriver">
+  <component name="RunManager" selected="JUnit.MarkovTest">
     <configuration name="MarkovDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MarkovDriver" />
       <module name="EfficientMarkov-spring20" />
@@ -64,8 +65,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MarkovDriver" />
         <item itemvalue="JUnit.MarkovTest" />
+        <item itemvalue="Application.MarkovDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -94,14 +95,6 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="MarkovTest_testMapMakeNgram - 2019.10.10 at 16h 50m 43s.xml">
-      <configuration name="MarkovTest.testMapMakeNgram" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MarkovTest - 2019.10.10 at 16h 52m 05s.xml">
-      <configuration name="MarkovTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -120,6 +113,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="214" y="310" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.877@0.23.1440.877" timestamp="1582664705086" />
+    <state width="676" height="198" key="GridCell.Tab.0.bottom" timestamp="1582930488777">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="676" height="198" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1582930488777" />
+    <state width="676" height="198" key="GridCell.Tab.0.center" timestamp="1582930488776">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="676" height="198" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1582930488776" />
+    <state width="676" height="198" key="GridCell.Tab.0.left" timestamp="1582930488775">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="676" height="198" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1582930488775" />
+    <state width="676" height="198" key="GridCell.Tab.0.right" timestamp="1582930488776">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="676" height="198" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1582930488776" />
     <state x="76" y="315" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582664752596">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
