@@ -28,12 +28,12 @@ public class Benchmark {
 	/**
 	 * Runs model based on parameters passed, returns mean and standard deviation
 	 * in an array of two double values with mean in ret[0] and sigma in ret[1]
-	 * @param textLength is size of random text generated
-	 * @param k is order of markov model
+	 * @param size is size of random text generated
+	 * @param model is order of markov model
 	 * @param source is string used for training
 	 * @return mean and sigma/standard deviation in that order in double[]
 	 * @throws Exception thrown if thread issues occur
-	 */
+	 **/
 	private static double[] benchmark(MarkovInterface<?> model,
 			                          String source, int size) throws Exception {
 		
