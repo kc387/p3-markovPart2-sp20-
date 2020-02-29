@@ -40,13 +40,13 @@ public class MarkovDriver {
 
 		//Only one of the next four lines should be uncommented
 		//MarkovInterface<String> standard = new BaseMarkov();
-		MarkovInterface<String> efficient = new EfficientMarkov();
-		//MarkovInterface<WordGram> wmm = new BaseWordMarkov();
+		//MarkovInterface<String> efficient = new EfficientMarkov();
+		MarkovInterface<WordGram> wmm = new BaseWordMarkov();
 		//MarkovInterface<WordGram> ewm = new EfficientWordMarkov();
 
 		// parameter in this line needs to be fixed based on line above
 		//markovGenerate(standard,text);
-		markovGenerate(efficient, text);
+		markovGenerate(wmm, text);
 	}
 
 	private static void printNicely(String random, int screenWidth) {
